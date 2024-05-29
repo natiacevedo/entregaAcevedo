@@ -112,7 +112,7 @@ footer nav a:hover {
 
 #sectBanner .banner {
   background-image: url(../img/banner.jpg);
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,12 +122,6 @@ footer nav a:hover {
   #sectBanner .banner {
     background-size: contain;
     background-attachment: scroll;
-  }
-}
-@media (max-width: 480px) {
-  #sectBanner .banner {
-    background-size: cover;
-    background-position: top;
   }
 }
 

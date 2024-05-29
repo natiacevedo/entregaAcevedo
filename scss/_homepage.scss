@@ -3,7 +3,7 @@
 #sectBanner {
     .banner {
       background-image: url(../img/banner.jpg);
-      background-attachment: fixed !important;
+      background-attachment: fixed;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -12,11 +12,6 @@
       @media (max-width: 768px) {
         background-size: contain;
         background-attachment: scroll;
-      }
-  
-      @media (max-width: 480px) {
-        background-size: cover; 
-        background-position: top; 
       }
     }
   }
