@@ -118,7 +118,6 @@ footer nav a:hover {
   background-repeat: no-repeat;
   min-height: 80vh;
 }
-
 @media (max-width: 768px) {
   #sectBanner .banner {
     background-size: contain;
@@ -131,6 +130,7 @@ footer nav a:hover {
     background-position: top;
   }
 }
+
 .backg {
   background-color: #78766f;
 }

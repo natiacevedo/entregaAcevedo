@@ -31,25 +31,25 @@
                 <p>¿Querés recibir información personalizada? ¿Tenés un proyecto en mente? Escribínos y nos pondremos en contacto contigo.</p>
                 <p>También podés contactarnos por <a href="https://www.instagram.com/homesapiensuy/" target="_blank" class="text-decoration-none text-secondary">Instagram</a></p>
             </div>
-            <form action="" name="contact" method="POST" class="w-100 ms-md-4" netlify>
+            <form name="contact" method="POST" class="w-100 ms-md-4" netlify>
                 <div class="mb-3">
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Nombre">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+                    <input type="email" class="form-control" id="exampleFormControlInput2" name="email" placeholder="Correo electrónico">
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Servicio en el que estás interesad@">
+                    <input type="text" class="form-control" id="exampleFormControlInput3" name="service" placeholder="Servicio en el que estás interesad@">
                 </div>
                 <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¡Contános más!"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" placeholder="¡Contános más!"></textarea>
                 </div>
-    
+        
                 <div class="text-end">
                     <button type="submit" class="btn text-decoration-none">Enviar</button>
                 </div>
             </form>
-        </section>
+        </section>        
     </main>
 
     <footer class="container d-lg-flex justify-content-between align-items-center border-top">
