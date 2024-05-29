@@ -120,7 +120,6 @@ footer nav a:hover {
 }
 @media (max-width: 768px) {
   #sectBanner .banner {
-    background-size: contain;
     background-attachment: scroll;
   }
 }
