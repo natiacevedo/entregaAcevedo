@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Melodrama-Variable';
+    src: url('../fonts/Melodrama-Variable.woff2') format('woff2'),
+         url('../fonts/Melodrama-Variable.woff') format('woff'),
+         url('../fonts/Melodrama-Variable.ttf') format('truetype');
+    font-weight: 300 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+  
+@font-face {
+    font-family: 'Cardillac';
+    src: url('../fonts/Cardillac-Medium.eot');
+    src: local('../fonts/Cardillac Medium'), local('Cardillac-Medium'),
+        url('../fonts/Cardillac-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cardillac-Medium.woff2') format('woff2'),
+        url('../fonts/Cardillac-Medium.woff') format('woff'),
+        url('../fonts/Cardillac-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cardillac';
+    src: url('../fonts/Cardillac-Regular.eot');
+    src: local('../fonts/Cardillac Regular'), local('Cardillac-Regular'),
+        url('../fonts/Cardillac-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cardillac-Regular.woff2') format('woff2'),
+        url('../fonts/Cardillac-Regular.woff') format('woff'),
+        url('../fonts/Cardillac-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neometric Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neometric Alt Regular'), 
+    url('../fonts/Neometric-AltRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Neometric Alt Hairline';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neometric Alt Hairline'), 
+    url('../fonts/Neometric Alt Hairline (Regular).woff') format('woff');
+    }

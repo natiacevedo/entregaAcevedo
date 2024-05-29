@@ -1,0 +1,113 @@
+// GENERALES:
+
+h1, h2, h3, h4, h5{
+    font-family: $cardillac-font;
+}
+
+p, .links{
+    font-family: $altfont;
+    font-size: small;
+}
+
+img{
+    width: 100%;
+}
+
+// HEADER:
+header{
+    img{
+        width: 32%;
+    }
+}
+
+#navHeader{
+    a{
+        border: $light 1px solid;
+        transition: all ease-in-out 0.3s;
+
+        &:hover{
+            border: $secondary 1px solid;
+        }
+    }
+
+    .active{
+        border: $secondary 1px solid;
+    }
+}
+
+// BOTONES:
+section{
+    a{
+        opacity: .8;
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.11);
+        transition: all ease-in-out 0.3s;
+
+            &:hover{
+                opacity: 1;
+                transform: scale(1.05);
+            }
+    }
+
+    .btn{
+        font-family: $altfont;
+        font-size: small;
+        background-color: $secondary;
+        color: $light;
+        border: $secondary 1px solid;
+        transition: all ease-in-out 0.3s;
+
+        &:hover{
+            opacity: .8;
+            background-color: $light;
+            color: $secondary;
+            border: $secondary 1px solid;
+        }
+    }
+}
+
+span{
+    font-size: 20px;
+}
+
+// FOOTER:
+
+footer{
+    .tamaño{
+        width: 30%;
+    }
+
+    .logoFooterLg{
+        width: 20%;
+    }
+
+    .logoFooter{
+        width: 14%;
+    }
+
+    .imgIg{
+        width: 10%;
+    }
+
+    nav{
+        a{
+            color: $dark;
+
+            &:hover{
+                color: $secondary;  
+            }
+        }
+    }
+}
+
+// Variables
+$header-height: 80px; // Ajusta esta altura según sea necesario
+
+// Estilos del header
+header.fixed-top {
+    height: $header-height;
+}
+
+// Estilos del main
+.main-content {
+    margin-top: $header-height;
+}
