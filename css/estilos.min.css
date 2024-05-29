@@ -119,6 +119,18 @@ footer nav a:hover {
   min-height: 80vh;
 }
 
+@media (max-width: 768px) {
+  #sectBanner .banner {
+    background-size: contain;
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 480px) {
+  #sectBanner .banner {
+    background-size: cover;
+    background-position: top;
+  }
+}
 .backg {
   background-color: #78766f;
 }

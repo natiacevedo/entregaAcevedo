@@ -12,6 +12,20 @@
     }
 }
 
+@media (max-width: 768px) {
+    #sectBanner .banner {
+        background-size: contain;
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 480px) {
+    #sectBanner .banner {
+        background-size: cover; 
+        background-position: top;
+    }
+}
+
 // Servicios destacados
 
 .backg{
