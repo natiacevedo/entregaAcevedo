@@ -98,16 +98,3 @@ footer{
         }
     }
 }
-
-// Variables
-$header-height: 80px; // Ajusta esta altura según sea necesario
-
-// Estilos del header
-header.fixed-top {
-    height: $header-height;
-}
-
-// Estilos del main
-.main-content {
-    margin-top: $header-height;
-}

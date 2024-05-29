@@ -8,14 +8,15 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 500px;
+        min-height: 80vh;
     }
 }
+
+// Servicios destacados
 
 .backg{
     background-color: $seconddark;
 }
-
 
 // Carousel
 #carouselExampleCaptions{

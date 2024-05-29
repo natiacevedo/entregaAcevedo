@@ -116,7 +116,7 @@ footer nav a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  min-height: 80vh;
 }
 
 .backg {
