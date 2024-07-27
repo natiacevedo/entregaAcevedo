@@ -109,6 +109,9 @@ footer nav a {
 footer nav a:hover {
   color: #A18066;
 }
+footer #desarrollado {
+  font-size: 10px !important;
+}
 
 #sectBanner .banner {
   background-image: url(../img/banner.jpg);
@@ -139,6 +142,10 @@ footer nav a:hover {
 
 ul li {
   font-size: smaller;
+}
+
+#equipo .card {
+  height: 150px;
 }
 
 /*!
